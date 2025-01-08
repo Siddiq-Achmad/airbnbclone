@@ -39,9 +39,9 @@ export function Header() {
             <Button
               size="icon"
               variant="secondary"
-              className="rounded-full bg-primary"
+              className="rounded-full bg-primary hover:bg-primary hover:text-primary"
             >
-              <Search className="h-4 w-4 text-white" />
+              <Search className="h-4 w-4 text-white " />
             </Button>
           </div>
         </div>
