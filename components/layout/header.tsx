@@ -46,7 +46,7 @@ export function Header() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2 ml-auto">
+        <div className="flex items-center gap-2">
           <Button variant="ghost" className="hidden md:flex">
             Airbnb your home
           </Button>

@@ -26,7 +26,7 @@ export function ListingCard({
   isFavorite = false,
 }: ListingCardProps) {
   return (
-    <Card className="rounded-xl border-0 group">
+    <Card className="rounded-xl border-0 group shadow-none">
       <Link href={`/rooms/${id}`}>
         <CardContent className="p-0">
           <div className="relative aspect-square rounded-xl overflow-hidden">

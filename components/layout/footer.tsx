@@ -1,3 +1,6 @@
+import { Separator } from "@/components/ui/separator";
+import { FacebookIcon, InstagramIcon, TwitterIcon } from "../icons";
+
 export function Footer() {
   const links = [
     {
@@ -21,7 +24,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t mt-12 py-8">
+    <footer className="border-t mt-12 py-8 bg-zinc-100 text-sm">
       <div className="max-w-screen-2xl mx-auto px-4">
         <h2 className="text-2xl font-semibold mb-6">
           Inspiration for future getaways
@@ -41,6 +44,24 @@ export function Footer() {
               </ul>
             </div>
           ))}
+        </div>
+      </div>
+      <Separator className="my-8" />
+      <div className="max-w-screen-2xl mx-auto px-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <a href="#">© 2025 Airbnb</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+          </div>
+          <div className="flex items-center gap-2 font-semibold">
+            <a href="#">English (US)</a>
+            <a href="#">$ USD</a>
+            <FacebookIcon size={16} />
+            <TwitterIcon size={16} />
+            <InstagramIcon size={16} />
+          </div>
         </div>
       </div>
     </footer>
