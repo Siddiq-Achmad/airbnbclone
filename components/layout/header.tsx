@@ -48,7 +48,7 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <Button variant="ghost" className="hidden md:flex">
-            Airbnb your home
+            NginepAja your home
           </Button>
           <div className="hidden">
             <LoginModal isOpen={isModalOpen} onClose={closeModal} />
@@ -77,7 +77,7 @@ export function Header() {
             <DropdownMenuContent align="end" className="w-48">
               <DropdownMenuItem onClick={openModal}>Sign up</DropdownMenuItem>
               <DropdownMenuItem onClick={openModal}>Login</DropdownMenuItem>
-              <DropdownMenuItem>Airbnb your home</DropdownMenuItem>
+              <DropdownMenuItem>NginepAja your home</DropdownMenuItem>
               <DropdownMenuItem>Help Center</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

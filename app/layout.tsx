@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Airbnb Clone",
-  description: "Airbnb Clone by Siddiq Achmad",
+  title: "NginepAja - Cari Penginapan",
+  description: "NginepAja by Siddiq Achmad",
 };
 
 export default function RootLayout({
