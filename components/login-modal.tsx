@@ -39,7 +39,7 @@ export function LoginModal({
         </DialogHeader>
         <div className="mt-6">
           <h2 className="text-2xl font-semibold tracking-tight">
-            Welcome to Airbnb
+            Welcome to NginepAja
           </h2>
           <form className="mt-4">
             <div className="space-y-4">
